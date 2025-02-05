@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport"content="width=device-width,initial-scale=1.0">
+	 <title>Mon contact</title>
+	 <link rel="stylesheet"href="style.css">
+</head>
+<body>
+     <header>
+	        <h1>Mon site personnel<br>Contact</h1>
+			<nav>
+			    <ul>
+				   <li><a href="Accueil.html">Accueil</a></li>
+				   <li><a href="CV.html">CV</a></li>
+				   <li><a href="agenda.html">Agenda</a></li>
+				   <li><a href="photo.html">photo</a></li>
+				   <li><a href="Contact.html">Contact</a></li>
+				   
+				</ul>
+		   </nav>
+     </header>
+     <main>
+           <h2>contactez-moi</h2>
+           <p>vous avez des questions ou souhaitez vous me contacter, veillez remplis le formulaire ci-dessous: </p>
+           <form action="submit_form.php"method="POST">
+                <label for="name"><h2><i>Nom:</i></h2></label><br>
+                <input type="text"id="name"name="name"required><br><br>
+				<label for="name"><h2><i>Prénom:</i></h2></label><br>
+				<input type="text"id="name"name="Prénom"required><br><br>
+				<label for="name"><h2><i>Tel</i></h2><br>
+				<input type="Tel"id="name"name="Tel"required><br><br>
+                <label for="email"><h2><i>Email:</i></h2></label><br>
+                <input type="email"id="email"name="email"required><br><br>
+                <label for="message"><h2><i>Message:</i></h2></label><br>
+                <textarea id="message"name="message"rows="5"required></textarea><br><br>
+                <button type="submit">Envoyer</button>				
+	       </form>
+	 </main>
+     <footer>
+           <p> Mon site personnel</p>
+     </footer>
+</body>
+</html>	 

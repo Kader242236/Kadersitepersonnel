@@ -1,0 +1,174 @@
+/*style général*/
+body{
+	font-family:Arial,sans-serif;
+	margin:0;
+	padding:0;
+	background-color:#f4f4f4;
+}
+/*Header*/
+header{
+	background-color:#0078d7;
+	color:white;
+	padding:10PX 0;
+	text-align:center;
+}
+header h1 {
+	margin: 0;
+}
+/*Navigation*/
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	background-color:#0053a4;
+}
+nav ul li{
+	margin:0 10px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	padding:10px 15px;
+}
+nav ul li a.active,nav ul li a:hover
+{
+	background-color:#003c7e;
+	border-radius:5px;
+}
+/*Main*/
+main{
+	padding:20px;
+	text-align:center;
+}
+h2{
+	background-color="003c7e";
+}
+/*Footer*/
+footer{
+	text-align:center;
+	padding:10px;
+	background-color:#0053a4;
+	color:white;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+/*tableau de l'agenda*/
+table{
+	width:100%;
+	border-collapse:collapse;
+	margin:20px 0;
+}
+table th,table td{
+	border:1px solid #ddd;
+	padding:10px;
+	text-align:center;
+}
+table th{
+	background-color:#0078d7;
+	color:rgb(159, 159, 243);
+}
+/*style pour les cellules de couleur(adaptez les couleurs)*/
+.rien{background-color:rgb(86, 193, 212);}
+.Anglais{background-color:rgb(235, 95, 14);}
+.Bases{background-color:rgb(219, 91, 112);}
+.Technologie{background-color: rgba(9, 187, 9, 0.726);}
+.Programmation{background-color:rgb(173, 229, 173);}
+.vide{background-color:rgba(220, 220, 220, 0.671);}
+.Systèmes{background-color:rgb(214, 10, 10);}
+.Sport{background-color: rgb(126, 216, 126);}
+.Réseaux{background-color: rgb(48, 56, 163);}
+.Algorithmique{background-color: rgb(247, 247, 10);}
+.Génie{background-color:rgb(173, 18, 96) ;}
+.Date{background-color: rgb(248, 200, 136);}
+.Collège{background-color:rgb(241, 143, 176);}
+.diplome{background-color: rgb(138, 220, 223);}
+.Français{background-color: rgb(243, 193, 66);}
+.Bien{background-color: rgb(124, 155, 71);}
+.Passable{background-color: #bbb9b9;}
+
+/*style du formulaire*/
+form{
+	max-width:500px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:20px;
+	box-shadow:0 4px 8px rgba(0,0,0,0.1);
+	border-radius:8px,
+}
+form label{
+	font-weight:bold;
+	display:block;
+	margin-bottom:5px;
+}
+form input,form textarea,form button{
+	width:100%;
+	padding:10px;
+	margin-bottom:15px;
+	border:1px solid #ddd;
+	border-radius:5px;
+	font-size:16px;
+}
+form input:focus,form textarea:focus{
+	border-color:#0078d4;
+	outline:none;
+}
+form button{
+	background-color:#0078d7;
+	color:white;
+	border:none;
+	cursor:pointer;
+}
+form button:hover{
+	background-color:#0053a4
+}
+/*Style de la galerie*/
+gallery{
+	display:flex;
+	flex-wrap:wrap;
+	gap:20px;
+	justify-content:center;
+	margin-top:20px;
+}
+gallery.photo{
+	width:calc(25%-20px);
+	box-shadow:0 4px 8px rgba(0,0,0,0.1);
+	background-color:white;
+	border-radius:8px;
+	overflow:hidden;
+	text-align:center;
+}
+gallery.photo img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+gallery.photo p{
+	padding:10px;
+	font-size:14px;
+	color:#555;
+}
+/*responsive pour les petits écrans*/
+@media screen and(max-width:768px)
+{
+	gallerie.photo{
+		width:calc(50%-20px);
+	}
+@media screen and(max-width:480px)
+{
+	gallery.photo{
+		width:100%;
+	}
+}
+		
+	
+	
+	
+	
+	
+	
+
+	
+	
